@@ -9,6 +9,8 @@ public class MoveLeft : EditorWindow
         GetWindow<MoveLeft>("Rotate");
     }
 
+ 
+
     void OnGUI()
     {
         GUILayout.Label("Rotate selected objects!", EditorStyles.boldLabel);
@@ -21,12 +23,10 @@ public class MoveLeft : EditorWindow
 
     void Rotator()
     {
-        foreach (GameObject obj in Selection.gameObjects)
-        {
-            if (obj != null)
-            {
-                transform.Rotate(new Vector3(0f, 100f, 0f) * Time.deltaTime);
-            }
-        }
+       foreach(GameObject obj in Selection.gameObjects)
+    {
+      Transform objTransf = obj.GetComponent<Transform>();
+      objTransf.Rotate(0f, 100f, 0f);
+    }
     }
 }

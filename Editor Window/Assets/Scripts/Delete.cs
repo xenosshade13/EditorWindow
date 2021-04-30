@@ -27,7 +27,7 @@ public class Delete : EditorWindow
         {
             if (obj != null)
             {
-                obj.Destroy;
+                DestroyImmediate(obj);
             }
         }
     }
