@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b5c9fd2900ab28409c5c031c6acc9e5, type: 3}
+  m_Name: Bones
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6717736680225674379, guid: c9d4abba74e94da4a86d0085f4925403, type: 3}
+  type: 2
+  description: The leftovers of those you've slain...
